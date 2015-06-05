@@ -9,7 +9,8 @@ Para se aceder á class EventEmmiter:
 
 ```js
 
-var events = require( 'events' ).EventEmmiter;
+var eventEmitter = require( 'events' ).EventEmmiter;
+var events = new eventEmitter();
 
 ```
 
