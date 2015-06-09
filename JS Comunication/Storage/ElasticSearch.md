@@ -221,7 +221,7 @@ GET Documentos/Pessoa/_search?q=last_name:Smith
    }
 }
 ```
-E se quisermos á pesquisa feita anteriormente adicionar um campo, que
+E se quisermos, à pesquisa feita anteriormente, adicionar um campo que
 nos dê as pessoas com ultimo nome *Smith* e que tenham mais de 30 anos?
 A query funciona desta maneira:
 
