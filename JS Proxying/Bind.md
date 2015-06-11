@@ -10,7 +10,7 @@ var modulo = {
     getX: function(){
         return this.x;
     }
-}
+};
 
 modulo.getX();                              // -> 81
 
