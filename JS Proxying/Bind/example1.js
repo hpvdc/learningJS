@@ -1,4 +1,3 @@
-
 this.x = 9;
 
 var modulo = {
@@ -11,7 +10,7 @@ var modulo = {
 console.log( modulo.getY() );                              // -> 81
 
 var getX = modulo.getY;
-console.log( getX() );                                     // -> 9
+console.log( this.x );                                     // -> 9
 
 var boundGetX = getX.bind( modulo );
 console.log( boundGetX() );                                // -> 81

@@ -28,9 +28,6 @@ animal.prototype.sava = function(){
                 + this.color + ' ' + this.gender + ' animal...');
 };
 
-
-
-
 /*
  * Foi criada uma classe animal com determinados atributos e algumas funções.
  * De seguida cria-se uma instância do objeto animal.

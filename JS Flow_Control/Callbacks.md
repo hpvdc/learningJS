@@ -15,15 +15,15 @@ var fs = require('fs');
 var num = undefined;
 
 function add() {
-  fs.readFile('num.txt', function finish(err, fileContents) {
-    num = parseInt(fileContents);
+  fs.readFile('num.txt', function finish( err, fileContents ) {
+    num = parseInt( fileContents );
     num++;
   })
 };
 
 add();
 
-console.log(num);
+console.log( num );
 
 ```
 
@@ -42,18 +42,18 @@ var fs = require('fs');
 var num = undefined;
 
 function add(callback) {
-  fs.readFile('num.txt', function finish(err, fileContents) {
-    num = parseInt(fileContents);
+  fs.readFile('num.txt', function finish( err, fileContents ) {
+    num = parseInt( fileContents );
     num++;
     callback();
   })
 }
 
 function printNum() {
-  console.log(num);
+  console.log( num );
 };
 
-add(printNum);
+add( printNum );
 
 ```
 
