@@ -47,7 +47,7 @@ setTimeout(function timeout() {
 6
 ```
 
-Na primeira linha imprimia o que estava contido no setTimeout, porque é mais
+A primeira linha imprimia o que estava contido no setTimeout, porque é mais
 rápido fazer o print para o ecrâ. Depois iria executar função a função por
 hierarquia.
 
