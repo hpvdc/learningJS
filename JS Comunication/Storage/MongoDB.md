@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # MongoDB
 
 MongoDB é uma base base de dados através de documentos, muito parecida com Redis,
@@ -18,7 +17,7 @@ status: 'A',
 groups: ['news', 'sports'];
 ```
 
-### Replication
+### Replicaçao
 A replicação dispõe de redundância e aumenta a quantidade de dados disponiveis.
 Existindo multiplas cópias de dados em vários servidores, existe a proteção da DB
 se um servidor falhar.
