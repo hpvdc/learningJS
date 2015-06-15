@@ -2,7 +2,7 @@
 
 Muitos dos objetos do Node emitem eventos.
 Já existem predefinidos alguns eventos, mas é possivel definir novos.
-Muitas funções estão estar ligadas a objetos, e são executadas quando um evento
+Muitas funções estão ligadas a objetos, e são executadas quando um evento
 é emitido. A isto chamam-se listeners.
 
 Para se aceder á class EventEmmiter:

@@ -127,7 +127,7 @@ em especifico, vamos pedir para nos dar todas as pessoas que estão registadas.
 ```js
 GET /Documentos/Pessoa/_search
 ```
-Ao indicarmos **_search** estamos a dizer para nos retornar todos o conteudo
+Ao indicarmos **_search** estamos a dizer para nos retornar todo o conteudo
 disponivel dentro do diretorio.
 
 ```js
@@ -246,3 +246,18 @@ A query funciona desta maneira:
 }
 ```
 No nosso exemplo vai retornar um único caso, *Jane Smith*.
+
+
+--------------------------------------------------------------------------------
+
+Para interligar o ElasticSearch à uma aplicação, uma das maneiras possiveis de
+implementar é criando uma cópia do objeto, mas apenas com os atributos que interessam,
+de modo a que não fiquem objetos demasiado grandes, para depois passar essa
+cópia para o ElasticSearch.
+
+Seguindo o paradigma que estou a abordar, é necessário que os dois objetos (o original
+    e o cópia ) estejam sempre sincronizados.
+
+O ultimo passo é redirecionar o conteudo da *pesquisa* na aplicação, para a
+RESP API do ElasticSearch. Quando o utilizador *pesquisa* alguma coisa, o ElasticSearch
+é executado em segundo plano. Será entao retornado coleçoes de objetos.
