@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MongoDB
 
 MongoDB é uma base base de dados através de documentos, muito parecida com Redis,
