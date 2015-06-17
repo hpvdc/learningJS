@@ -1,5 +1,6 @@
 # Socket.io
 
+Socket.io permite comunicações bidirecionais baseadas em eventos, em tempo real.
 Criar servidor socket.io.
 
 **Usando http.createServer do node:**
