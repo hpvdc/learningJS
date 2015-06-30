@@ -1,6 +1,6 @@
 # Redis
 
-Redis ( REmote DIctionary Server) é um servidor de estrutura de dados. É open-source
+Redis ( REmote DIctionary Server) é um servidor de estruturas de dados. É open-source
 (software aberto), em memória e guarda 'valores' durante o tempo que necessitarmos.
 A diferença do Redis para as outras 'Bases de dados em memória', é o armazenamento
 de dados. Suporta tipos de dados abstractos: listas, sets, tabelas hash ...
